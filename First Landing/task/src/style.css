@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.5em;
+    width: 100vw;
+}
+
+header {
+    background-color: darkgoldenrod;
+    height: 10vh;
+}
+
+main {
+    background-color: cadetblue;
+    height: 60vh;
+}
+
+footer {
+    background-color: yellow;
+    height: 30vh;
+}
