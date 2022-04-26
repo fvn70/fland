@@ -65,8 +65,7 @@ a:active {
 #home {
     text-align: center;
     padding: 1rem;
-    /*background-color: #f8f9fa;*/
-    background-color: #cde6ba;
+    background-color: #f8f9fa;
     overflow: hidden;
 }
 
@@ -129,7 +128,6 @@ a:active {
     width: 80%;
     height: 400px;
     margin-left: 10%;
-    /*border: 1px solid blue;*/
     border-radius: 21px 21px 0 0;
     text-align: center;
 }
@@ -153,7 +151,51 @@ a:active {
     color: #6c757d;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+}
+
+h5 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 1.25rem;
+    color: #f8f9fa;
+}
+
+form div {
+    margin-bottom: 1rem;
+}
+
+#label1 {
+    display: block;
+    margin-bottom: .5rem;
+    color: #f8f9fa;
+}
+
+#email {
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #212529;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+#label2 {
+    color: #f8f9fa;
+}
+
+#submit {
+    width: 100%;
+    display: inline-block;
+    border: 1px solid #6c757d;
+    border-radius: .25rem;
+    font-size: 1rem;
+    padding: .375rem .75rem;
+    cursor: pointer;
+    color: white;
+    background-color: #6c757d;
 }
